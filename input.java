@@ -43,8 +43,11 @@ class Sol{
 
         System.out.println("Double: "); 
         double d = in.nextDouble(); 
-
-        System.out.println(s+ " " +  age + " " +  c + " " +  f + " "+ d); 
+        
+        //for taking multiple spaced string input do the following 
+        String s2 = in.next(); 
+        s2+= in.nextLine();  
+        System.out.println(s+ " " +  age + " " +  c + " " +  f + " "+ d + " " + s2); 
         
         in.close(); 
 
